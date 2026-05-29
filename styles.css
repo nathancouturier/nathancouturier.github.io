@@ -307,6 +307,7 @@ section {
 }
 
 .nav__hamburger { display: none; }
+.nav__mobile { display: none; }
 
 /* ---------- 6. HERO ---------- */
 .hero {

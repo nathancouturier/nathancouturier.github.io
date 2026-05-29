@@ -345,15 +345,6 @@ const CONTENT = {
           fr: "Délégué de classe au Lycée Chevrollier, puis élu au conseil d’administration représentant 2 700 étudiants auprès de l’administration.",
         },
       },
-      {
-        kind: { en: "Strategy", fr: "Stratégie" },
-        title: { en: "Chess", fr: "Échecs" },
-        years: { en: "Ongoing", fr: "En continu" },
-        body: {
-          en: "A handful of blitz and rapid games each week. A small habit that sharpens pattern recognition and the patience to wait for the right setup before committing.",
-          fr: "Quelques parties de blitz et de rapides chaque semaine. Une petite habitude qui aiguise la reconnaissance de patterns et la patience d’attendre le bon setup avant d’engager.",
-        },
-      },
     ],
   },
 
