@@ -110,7 +110,7 @@ const CONTENT = {
     items: [
       {
         company: "HSBC Continental Europe",
-        logo: "hsbc-logo.svg",
+        logo: "hsbc.svg",
         role: {
           en: "Intern, Commodity Trade Finance · GTS",
           fr: "Stagiaire, Commodity Trade Finance · GTS",
@@ -134,7 +134,7 @@ const CONTENT = {
       },
       {
         company: "ECHO · Expansion des Centres d’Hémodialyse de l’Ouest",
-        logo: "echo-logo.svg",
+        logo: "echo.png",
         role: {
           en: "Intern, Management Controller",
           fr: "Stagiaire, Contrôleur de Gestion",

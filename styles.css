@@ -652,9 +652,10 @@ section {
 
 .tl-item__logo {
   display: block;
-  height: 28px;
+  height: auto;
   width: auto;
-  max-width: 140px;
+  max-height: 36px;
+  max-width: 160px;
   margin-bottom: 0.85rem;
   object-fit: contain;
 }
