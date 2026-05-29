@@ -126,14 +126,6 @@ strong { font-weight: 600; }
   gap: 0.65em;
 }
 
-.eyebrow::before {
-  content: "";
-  width: 1.75em;
-  height: 1px;
-  background: var(--accent);
-  display: inline-block;
-}
-
 /* ---------- 3. BACKGROUND TEXTURES ---------- */
 body::before { /* grid */
   content: "";
@@ -223,19 +215,6 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-}
-
-.nav__brand::after {
-  content: "";
-  width: 5px; height: 5px; border-radius: 50%;
-  background: #4ADE80;
-  box-shadow: 0 0 8px #4ADE80;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.5; transform: scale(1.15); }
 }
 
 .nav__links {
@@ -655,8 +634,8 @@ section {
   display: block;
   height: auto;
   width: auto;
-  max-height: 36px;
-  max-width: 160px;
+  max-height: 52px;
+  max-width: 180px;
   margin-bottom: 0.85rem;
   object-fit: contain;
 }
@@ -991,12 +970,6 @@ section {
   gap: 0.65rem;
 }
 
-.quote__attr::before {
-  content: "";
-  width: 2rem; height: 1px;
-  background: var(--text-dim);
-}
-
 /* ---------- 13. BEYOND ---------- */
 .beyond-grid {
   display: grid;
@@ -1226,7 +1199,6 @@ a.contact__val:hover, a.contact__val:focus-visible { color: var(--accent); }
     color: var(--text-muted);
   }
   .nav__hamburger:hover { color: var(--accent); border-color: var(--accent); }
-  .nav__brand::after { display: none; }
   .nav__tools .icon-btn:not(.cv-btn) { display: none; }
   .nav__mobile {
     position: fixed;

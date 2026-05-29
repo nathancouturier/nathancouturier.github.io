@@ -319,15 +319,6 @@ const CONTENT = {
         },
       },
       {
-        kind: { en: "Volunteer", fr: "Bénévolat" },
-        title: { en: "Food outreach walks", fr: "Maraudes alimentaires" },
-        years: "2023-2024",
-        body: {
-          en: "Evening walks through Angers to distribute food and warm drinks to homeless residents. Listening, not just handing things over.",
-          fr: "Maraudes nocturnes à Angers pour distribuer nourriture et boissons chaudes aux personnes sans domicile. Écouter, pas seulement distribuer.",
-        },
-      },
-      {
         kind: { en: "Discipline", fr: "Discipline" },
         title: { en: "Gym & calisthenics", fr: "Salle & callisthénie" },
         years: "Ongoing",
