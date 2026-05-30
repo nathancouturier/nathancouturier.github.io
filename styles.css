@@ -696,15 +696,17 @@ section {
 .edu-card:hover { background: var(--bg-elev); }
 
 .edu-card__logo {
-  height: 44px;
+  height: 40px;
   width: auto;
   max-width: 200px;
   object-fit: contain;
-  background: #FFFFFF;
-  padding: 8px 12px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
+  object-position: left center;
   margin-bottom: 1.25rem;
+}
+
+/* logos are dark-on-transparent: render them light in dark mode so they stay legible */
+[data-theme="dark"] .edu-card__logo {
+  filter: brightness(0) invert(1);
 }
 
 .edu-card__school {
