@@ -161,6 +161,7 @@ const CONTENT = {
     items: [
       {
         school: "ESCP Business School",
+        logo: "escp.png",
         degree: {
           en: "Master in Management · Investment Banking track",
           fr: "Master in Management · Spécialisation Investment Banking",
@@ -178,6 +179,7 @@ const CONTENT = {
       },
       {
         school: "Lycée Chevrollier",
+        logo: "chevrollier.png",
         degree: {
           en: "Classe Préparatoire ECT · French Grandes Écoles entrance exam",
           fr: "Classe Préparatoire ECT · concours des Grandes Écoles",

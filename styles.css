@@ -695,6 +695,18 @@ section {
 
 .edu-card:hover { background: var(--bg-elev); }
 
+.edu-card__logo {
+  height: 44px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+  background: #FFFFFF;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-bottom: 1.25rem;
+}
+
 .edu-card__school {
   font-family: var(--ff-display);
   font-size: var(--fs-display-s);

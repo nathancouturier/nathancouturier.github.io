@@ -275,6 +275,13 @@
         el("div", { class: "edu-grid reveal-stagger" },
           ...c.items.map(it =>
             el("div", { class: "edu-card" },
+              it.logo ? el("img", {
+                class: "edu-card__logo",
+                src: it.logo,
+                alt: `${it.school} logo`,
+                loading: "lazy",
+                onerror: (ev) => { ev.target.style.display = "none"; },
+              }) : null,
               el("h3", { class: "edu-card__school" }, it.school),
               el("p", { class: "edu-card__degree" }, t(it.degree)),
               el("div", { class: "edu-card__campuses" },
