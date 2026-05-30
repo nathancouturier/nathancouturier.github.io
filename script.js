@@ -10,7 +10,7 @@
   /* ---------- 0. STATE ---------- */
   const root = document.documentElement;
   const state = {
-    theme: localStorage.getItem("nc-theme") || "dark",
+    theme: localStorage.getItem("nc-theme") || "light",
     lang: localStorage.getItem("nc-lang") || "en",
   };
 
@@ -46,7 +46,7 @@
     const icon = $("#theme-icon");
     if (icon) icon.textContent = theme === "dark" ? "☀" : "☾";
     const meta = $('meta[name="theme-color"]');
-    if (meta) meta.content = theme === "dark" ? "#0A0E1B" : "#F8F4EA";
+    if (meta) meta.content = theme === "dark" ? "#17181C" : "#FBFAF8";
   };
 
   const toggleTheme = () => applyTheme(state.theme === "dark" ? "light" : "dark");
@@ -575,8 +575,8 @@
 
   /* ---------- 20. CONSOLE EASTER EGG ---------- */
   const easterEgg = () => {
-    const styleTitle = "color:#C9A961; font-size:18px; font-weight:bold; font-family:Georgia,serif;";
-    const styleBody = "color:#8A93AC; font-size:12px; font-family:monospace;";
+    const styleTitle = "color:#8E2B2B; font-size:18px; font-weight:bold; font-family:Georgia,serif;";
+    const styleBody = "color:#6A6E76; font-size:12px; font-family:monospace;";
     console.log("%cNathan Couturier", styleTitle);
     console.log("%cCommodity Trade Finance · HSBC · Paris", styleBody);
     console.log("%cIf you got here from an email, the address is nathan.couturier@edu.escp.eu.", styleBody);

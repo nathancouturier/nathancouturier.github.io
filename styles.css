@@ -1,6 +1,8 @@
 /* ============================================================
    NATHAN COUTURIER PORTFOLIO
-   Editorial dark, navy + gold + ivory
+   Palette A · encre neutre (retenue)
+   papier #FBFAF8 · encre #17181C · gris #6A6E76
+   filet #E5E2DB · accent brique #8E2B2B (clin d'oeil HSBC)
    Fraunces / Satoshi / JetBrains Mono
    ============================================================ */
 
@@ -17,23 +19,23 @@ input, textarea, select { font: inherit; }
 
 /* ---------- 1. DESIGN TOKENS ---------- */
 :root {
-  /* dark (default) */
-  --bg:           #0A0E1B;
-  --bg-elev:      #11172A;
-  --bg-card:      #131A30;
-  --bg-tint:      rgba(201, 169, 97, 0.04);
-  --border:       #1E2742;
-  --border-strong:#2D3956;
-  --text:         #F5F1E8;
-  --text-muted:   #8A93AC;
-  --text-dim:     #5B6480;
-  --accent:       #C9A961;
-  --accent-bright:#E5C275;
-  --accent-deep:  #8C7544;
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
-  --shadow:    0 8px 24px rgba(0,0,0,0.35);
-  --shadow-lg: 0 24px 64px rgba(0,0,0,0.45);
-  --grain-opacity: 0.035;
+  /* light · "encre neutre" — paper-led (default) */
+  --bg:           #FBFAF8;  /* papier      */
+  --bg-elev:      #FFFFFF;
+  --bg-card:      #F5F3ED;
+  --bg-tint:      rgba(142, 43, 43, 0.045);
+  --border:       #E5E2DB;  /* filet       */
+  --border-strong:#D3CFC4;
+  --text:         #17181C;  /* encre       */
+  --text-muted:   #6A6E76;  /* gris texte  */
+  --text-dim:     #9C9FA6;
+  --accent:       #8E2B2B;  /* brique      */
+  --accent-bright:#A4332E;
+  --accent-deep:  #6B2020;
+  --shadow-sm: 0 1px 2px rgba(23,24,28,0.05);
+  --shadow:    0 8px 24px rgba(23,24,28,0.08);
+  --shadow-lg: 0 24px 64px rgba(23,24,28,0.12);
+  --grain-opacity: 0.03;
 
   /* type scale */
   --fs-display-xl: clamp(3.25rem, 9vw, 8rem);
@@ -64,23 +66,24 @@ input, textarea, select { font: inherit; }
   --t-slow: 700ms;
 }
 
-[data-theme="light"] {
-  --bg:           #F8F4EA;
-  --bg-elev:      #FFFFFF;
-  --bg-card:      #FDFAF1;
-  --bg-tint:      rgba(140, 117, 68, 0.05);
-  --border:       #E5DCC7;
-  --border-strong:#D4C8AC;
-  --text:         #1A1F2E;
-  --text-muted:   #5C6478;
-  --text-dim:     #8A92A8;
-  --accent:       #8C7544;
-  --accent-bright:#6B5A33;
-  --accent-deep:  #4A3D22;
-  --shadow-sm: 0 1px 2px rgba(26,31,46,0.05);
-  --shadow:    0 8px 24px rgba(26,31,46,0.08);
-  --shadow-lg: 0 24px 64px rgba(26,31,46,0.12);
-  --grain-opacity: 0.04;
+[data-theme="dark"] {
+  /* dark · ink ground, brique brightened for contrast */
+  --bg:           #17181C;  /* encre       */
+  --bg-elev:      #202126;
+  --bg-card:      #1E1F24;
+  --bg-tint:      rgba(192, 80, 74, 0.05);
+  --border:       #2B2C31;
+  --border-strong:#3C3D43;
+  --text:         #FBFAF8;  /* papier      */
+  --text-muted:   #A6A9B0;
+  --text-dim:     #6A6E76;  /* gris texte  */
+  --accent:       #C0504A;
+  --accent-bright:#D66A62;
+  --accent-deep:  #8E2B2B;  /* true brique */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow:    0 8px 24px rgba(0,0,0,0.45);
+  --shadow-lg: 0 24px 64px rgba(0,0,0,0.55);
+  --grain-opacity: 0.05;
 }
 
 /* ---------- 2. GLOBAL TYPE ---------- */
