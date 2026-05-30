@@ -343,12 +343,12 @@ const CONTENT = {
 
   quote: {
     text: {
-      en: "The cure for high prices is high prices, and the cure for low prices is low prices.",
-      fr: "Le remède aux prix hauts, ce sont les prix hauts. Le remède aux prix bas, ce sont les prix bas.",
+      en: "Commodity trading is about understanding cycles before others do.",
+      fr: "Le trading de matières premières, c’est comprendre les cycles avant les autres.",
     },
     attribution: {
-      en: "Commodity market adage",
-      fr: "Adage des marchés de matières premières",
+      en: "Jim Rogers",
+      fr: "Jim Rogers",
     },
   },
 
