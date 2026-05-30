@@ -634,8 +634,8 @@ section {
   display: block;
   height: auto;
   width: auto;
-  max-height: 80px;
-  max-width: 180px;
+  max-height: 96px;
+  max-width: 200px;
   margin-bottom: 0.85rem;
   object-fit: contain;
 }
